@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.belvi.rs$ [NC]
+RewriteRule ^(.*)$ http://belvi.rs/$1 [R=301,L]
+RewriteRule !^(\.gif|\.png|\.jpe?g|\.css|\.js|\.php|^public/.*)$ index.php [nocase,last]

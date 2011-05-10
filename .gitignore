@@ -1,0 +1,5 @@
+.buildpath
+.project
+tmp/*
+public/files/*
+config/config.php
